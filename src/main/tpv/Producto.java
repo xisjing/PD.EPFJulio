@@ -8,11 +8,11 @@ public class Producto {
 	
 	private float precio;
 	
-	 public Producto(int id,String name,float precio) {
-		    this.id = id;
-	        this.name = name;
-	        this.precio = precio;
-	    }
+
+	public Producto(String name, float precio) {
+		this.name=name;
+	}
+
 
 	public String getName() {
 		return name;

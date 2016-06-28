@@ -8,8 +8,7 @@ public class Comando {
 	
 	private int amount;
 	
-	 public void Producto(int id,Producto producto,int amount) {
-		    this.id = id;
+	 public void Producto(Producto producto,int amount) {
 	        this.producto = producto;
 	        this.amount = amount;
 	    }
