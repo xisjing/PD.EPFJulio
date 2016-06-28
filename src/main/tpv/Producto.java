@@ -1,7 +1,31 @@
 package main.tpv;
 
-public abstract class Producto {
+public class Producto {
 	
-	public abstract int PrecioTotal();
+	private int id;
+	
+	private String name;
+	
+	private float precio;
+	
+	 public Producto(int id,String name,float precio) {
+		    this.id = id;
+	        this.name = name;
+	        this.precio = precio;
+	    }
+
+	public String getName() {
+		return name;
+	}
+
+
+	public float getPrecio() {
+		return precio;
+	}
+
+
+	public int getId() {
+		return id;
+	}
 
 }
